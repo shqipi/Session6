@@ -14,6 +14,14 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
-
+    @IBAction func cardSelector(_ sender: UIButton) {
+        self.performSegue(withIdentifier: "goToCard", sender: self)
+    }
+    
+    
+    @IBAction func ticketSelector(_ sender: UIButton) {
+        self.performSegue(withIdentifier: "goToTicket", sender: self)
+    }
+    
 }
 

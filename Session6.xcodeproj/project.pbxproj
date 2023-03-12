@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04383EEB29A0DB27007B1EA1 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04383EEA29A0DB27007B1EA1 /* HomeViewController.swift */; };
+		04383EED29A113E3007B1EA1 /* BoardingPassViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04383EEC29A113E3007B1EA1 /* BoardingPassViewController.swift */; };
 		045D764B299EEA0C000184AF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045D764A299EEA0C000184AF /* AppDelegate.swift */; };
 		045D764D299EEA0C000184AF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045D764C299EEA0C000184AF /* SceneDelegate.swift */; };
 		045D764F299EEA0C000184AF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045D764E299EEA0C000184AF /* ViewController.swift */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		04383EEA29A0DB27007B1EA1 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		04383EEC29A113E3007B1EA1 /* BoardingPassViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardingPassViewController.swift; sourceTree = "<group>"; };
 		045D7647299EEA0C000184AF /* Session6.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Session6.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		045D764A299EEA0C000184AF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		045D764C299EEA0C000184AF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -58,11 +62,13 @@
 			children = (
 				045D764A299EEA0C000184AF /* AppDelegate.swift */,
 				045D764C299EEA0C000184AF /* SceneDelegate.swift */,
+				04383EEA29A0DB27007B1EA1 /* HomeViewController.swift */,
 				045D764E299EEA0C000184AF /* ViewController.swift */,
 				045D7650299EEA0C000184AF /* Main.storyboard */,
 				045D7653299EEA0C000184AF /* Assets.xcassets */,
 				045D7655299EEA0C000184AF /* LaunchScreen.storyboard */,
 				045D7658299EEA0C000184AF /* Info.plist */,
+				04383EEC29A113E3007B1EA1 /* BoardingPassViewController.swift */,
 			);
 			path = Session6;
 			sourceTree = "<group>";
@@ -139,8 +145,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				045D764F299EEA0C000184AF /* ViewController.swift in Sources */,
+				04383EED29A113E3007B1EA1 /* BoardingPassViewController.swift in Sources */,
 				045D764B299EEA0C000184AF /* AppDelegate.swift in Sources */,
 				045D764D299EEA0C000184AF /* SceneDelegate.swift in Sources */,
+				04383EEB29A0DB27007B1EA1 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
